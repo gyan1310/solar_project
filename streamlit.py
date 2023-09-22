@@ -153,6 +153,7 @@ def main():
         plt.grid(True)
         plt.xticks(rotation=45)
         st.pyplot()
+        st.markdown("developed by gyan")
 
 if __name__ == "__main__":
     main()
