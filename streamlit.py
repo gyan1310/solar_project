@@ -126,7 +126,7 @@ def main():
         plt.legend()
         # plt.grid(False)
         # plt.xticks(rotation=45)
-        # st.pyplot()
+        st.pyplot()
 
         # Plot optimal tilt angle
         st.subheader("Optimal Tilt Angle Over Time")
