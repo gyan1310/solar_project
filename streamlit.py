@@ -125,7 +125,7 @@ def main():
         # plt.title('Solar Zenith Angle Over Time')
         plt.legend()
         # plt.grid(False)
-        # plt.xticks(rotation=45)
+        plt.xticks(rotation=45)
         st.pyplot()
 
         # Plot optimal tilt angle
