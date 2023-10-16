@@ -120,12 +120,12 @@ def main():
 
         # plt.show()
 
-        # plt.xlabel('Date')
-        # plt.ylabel('Solar Zenith Angle (degrees)')
-        # plt.title('Solar Zenith Angle Over Time')
+        plt.xlabel('Date')
+        plt.ylabel('Solar Zenith Angle (degrees)')
+        plt.title('Solar Zenith Angle Over Time')
         plt.legend()
         # plt.grid(False)
-        plt.xticks(rotation=45)
+        # plt.xticks(rotation=45)
         st.pyplot()
 
         # Plot optimal tilt angle
@@ -139,7 +139,7 @@ def main():
         plt.title('Optimal Tilt Angle Over Time')
         plt.legend()
         plt.grid(False)
-        plt.xticks(rotation=45)
+        # plt.xticks(rotation=45)
         st.pyplot()
 
         # Plot optimal azimuth angle
@@ -154,7 +154,7 @@ def main():
         plt.legend()
         plt.grid(False)
         plt.grid(axis='y', linestyle='--', alpha=0.6) 
-        plt.xticks(rotation=45)
+        # plt.xticks(rotation=45)
         st.pyplot()
         st.markdown("developed by gyan")
 
