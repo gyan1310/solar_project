@@ -116,7 +116,7 @@ def main():
         st.subheader("Solar Zenith Angle Over Time")
         plt.figure(figsize=(12, 6))
         for timestamp in timestamps:
-            plt.plot(df['Date'], df[timestamp], label=f'Solar Zenith Angle ({timestamp[7:]})')
+            plt.plot(df['Date'], df[timestamp])#, label=f'Solar Zenith Angle ({timestamp[7:]})')
 
         plt.xlabel('Date')
         plt.ylabel('Solar Zenith Angle (degrees)')
