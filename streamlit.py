@@ -118,13 +118,15 @@ def main():
         for timestamp in timestamps:
             plt.plot(df['Date'], df[timestamp])#, label=f'Solar Zenith Angle ({timestamp[7:]})')
 
-        plt.xlabel('Date')
-        plt.ylabel('Solar Zenith Angle (degrees)')
-        plt.title('Solar Zenith Angle Over Time')
-        plt.legend()
-        plt.grid(False)
-        plt.xticks(rotation=45)
-        st.pyplot()
+        plt.show()
+
+        # plt.xlabel('Date')
+        # plt.ylabel('Solar Zenith Angle (degrees)')
+        # plt.title('Solar Zenith Angle Over Time')
+        # plt.legend()
+        # plt.grid(False)
+        # plt.xticks(rotation=45)
+        # st.pyplot()
 
         # Plot optimal tilt angle
         st.subheader("Optimal Tilt Angle Over Time")
