@@ -118,7 +118,7 @@ def main():
         for timestamp in timestamps:
             plt.plot(df['Date'], df[timestamp])#, label=f'Solar Zenith Angle ({timestamp[7:]})')
 
-        plt.show()
+        # plt.show()
 
         # plt.xlabel('Date')
         # plt.ylabel('Solar Zenith Angle (degrees)')
