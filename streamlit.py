@@ -122,7 +122,7 @@ def main():
         plt.ylabel('Solar Zenith Angle (degrees)')
         plt.title('Solar Zenith Angle Over Time')
         plt.legend()
-        plt.grid(True)
+        plt.grid(False)
         plt.xticks(rotation=45)
         st.pyplot()
 
@@ -136,7 +136,7 @@ def main():
         plt.ylabel('Optimal Tilt Angle (degrees)')
         plt.title('Optimal Tilt Angle Over Time')
         plt.legend()
-        plt.grid(True)
+        plt.grid(False)
         plt.xticks(rotation=45)
         st.pyplot()
 
