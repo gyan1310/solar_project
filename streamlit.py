@@ -124,7 +124,7 @@ def main():
         plt.ylabel('Solar Zenith Angle (degrees)')
         plt.title('Solar Zenith Angle Over Time')
         plt.legend()
-        # plt.grid(False)
+        plt.grid(False)
         # plt.xticks(rotation=45)
         st.pyplot()
 
