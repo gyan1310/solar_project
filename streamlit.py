@@ -150,7 +150,7 @@ def main():
         plt.ylabel('Optimal Azimuth Angle (degrees)')
         plt.title('Optimal Azimuth Angle Over Time')
         plt.legend()
-        plt.grid(True)
+        plt.grid(False)
         plt.xticks(rotation=45)
         st.pyplot()
         st.markdown("developed by gyan")
